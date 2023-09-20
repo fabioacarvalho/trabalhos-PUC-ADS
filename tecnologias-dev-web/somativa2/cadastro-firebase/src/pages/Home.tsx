@@ -57,7 +57,7 @@ export const Home = () => {
                     <h1>Bem vindo</h1>
                         <h2 className='text-capitalize'>{Data.name} {Data.lastName}</h2>
                         
-                        <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Acesse seus dados</button>
+                        <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Acessar meus dados</button>
                         <button className="btn btn-danger" style={{ marginLeft: 10 }} type="button" onClick={logOut}>Sair</button>
                         
                         <div className="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -67,9 +67,9 @@ export const Home = () => {
                         </div>
                         <div className="offcanvas-body">
                             <p className="fw-bold text-start">Nome:</p>
-                            <p className="text-start">{Data.name}</p>
+                            <p className="text-capitalize text-start">{Data.name}</p>
                             <p className="fw-bold text-start">Sobrenome:</p>
-                            <p className="text-start">{Data.lastName}</p>
+                            <p className="text-capitalize text-start">{Data.lastName}</p>
                             <p className="fw-bold text-start">Data de Nascimento:</p>
                             <p className="text-start">{Data.born}</p>
                             <p className="fw-bold text-start">E-mail:</p>

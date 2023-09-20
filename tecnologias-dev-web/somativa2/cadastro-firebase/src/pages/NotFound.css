@@ -1,0 +1,16 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+#titulo {
+    color: red;
+}
+
+footer {
+    margin-top: 50vh;
+}

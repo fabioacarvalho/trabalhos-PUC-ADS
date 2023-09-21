@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import './Home.css';
 import firebase from '../service/firebase';
 
@@ -22,7 +22,7 @@ export const Home = () => {
   
     };
 
-    const getData = async (uid: string) => {
+    const getData = async (uid) => {
         await firebase.firestore().collection('usuario').doc(uid).get()
             .then(resp => {
                 setData(resp.data())

@@ -2,6 +2,8 @@
 
 ## Projeto de Cadastros com React, Vite, JavaScript e Firebase
 
+Acesse em [Somativa 2](https://somativa2fabiocarvalho.netlify.app)
+
 Este repositório contém o código fonte e a documentação para o projeto desenvolvido como parte da disciplina de Tecnologias para Desenvolvimento Web na PUCPR. O objetivo deste projeto é criar um sistema de cadastros utilizando tecnologias modernas para o desenvolvimento web, incluindo React, Vite, TypeScript e Firebase.
 
 ## Visão Geral

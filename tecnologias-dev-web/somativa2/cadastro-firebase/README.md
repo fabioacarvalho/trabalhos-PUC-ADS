@@ -59,6 +59,19 @@ npm run dev
 
 6. Abra seu navegador e acesse a aplicação em [http://localhost:3000](http://localhost:3000).
 
+## Usando o Docker
+
+Caso possua o Docker instalado basta seguir os passos a seguir para subir a aplicação:
+
+```bash
+docker build -t somativa2 .
+```
+<br>
+
+```bash
+docker run -p 5173:5173 -d somativa2
+```
+
 ## Contribuição
 
 Este projeto foi desenvolvido como parte de um trabalho acadêmico. Se você deseja contribuir ou sugerir melhorias, fique à vontade para criar pull requests ou abrir issues neste repositório.

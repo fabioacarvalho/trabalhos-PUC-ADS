@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "node"
+
+env:
+  - MY_VAY=EverythingIsAwesome
+  - NODE_ENV=TEST
+  - secure: "f1d2s3fsd5f64dsf5ds31f2dsf16sg5465t4r32t1s3216a5s4fd6as5g4sr2g13r2t46e5r4fs32d1f5ew6t4"
